@@ -45,3 +45,13 @@ for x in range (len(prediction)):
 
 
 
+#Ploting things
+
+
+x_axis_plot="G1"
+y_axis_plot=predict
+style.use("ggplot")
+pyplot.scatter(data[x_axis_plot],data[y_axis_plot])
+pyplot.xlabel="First Term Grade"
+pyplot.ylabel="Final Term Grade"
+pyplot.show()
